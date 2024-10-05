@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f752db3-458c-46d6-a3a0-3263f92142cd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DZ1/task2/RadixSortPhoneNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DZ1/task3/CountingSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,15 +42,37 @@
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="task2" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="DZ1.task2.RadixSortPhoneNumbers" />
+  <component name="RunManager" selected="Application.CountingSort">
+    <configuration name="CountingSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DZ1.task3.CountingSort" />
+      <module name="JAVA-Algoritms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DZ1.task3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="task3" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="DZ1.task3.RadixSortPhoneNumbers" />
       <module name="JAVA-Algoritms" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/DZ1" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.task3" />
+      <item itemvalue="Application.CountingSort" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.CountingSort" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -61,7 +83,7 @@
       <option name="presentableId" value="Default" />
       <updated>1728052577728</updated>
       <workItem from="1728052579562" duration="2585000" />
-      <workItem from="1728104945211" duration="8549000" />
+      <workItem from="1728104945211" duration="9603000" />
     </task>
     <servers />
   </component>

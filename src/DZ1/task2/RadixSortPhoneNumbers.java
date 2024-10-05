@@ -25,7 +25,7 @@ public class RadixSortPhoneNumbers {
             count[digit]--;
         }
 
-        // Копируем отсортированные числа обратно в исходный массив
+
         System.arraycopy(output, 0, arr, 0, n);
 // ваша реализация
     }
