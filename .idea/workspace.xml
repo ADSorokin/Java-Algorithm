@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f752db3-458c-46d6-a3a0-3263f92142cd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JAVA-Algoritms.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DZ1/task1/HeapSortTasks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DZ1/task2/RadixSortPhoneNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,23 +24,27 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2myd6dMZLIRdTA8JR8vbPEmgjNS" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "C:/Users/user/IdeaProjects/java_homework/JAVA-Algoritms/src/DZ1",
+    "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
   <component name="RunManager">
-    <configuration name="task1" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="DZ1.task1.HeapSortTasks" />
+    <configuration name="task2" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="DZ1.task2.RadixSortPhoneNumbers" />
       <module name="JAVA-Algoritms" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/DZ1" />
       <method v="2">
@@ -62,7 +61,7 @@
       <option name="presentableId" value="Default" />
       <updated>1728052577728</updated>
       <workItem from="1728052579562" duration="2585000" />
-      <workItem from="1728104945211" duration="5846000" />
+      <workItem from="1728104945211" duration="8549000" />
     </task>
     <servers />
   </component>
@@ -79,5 +78,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
