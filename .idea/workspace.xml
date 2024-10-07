@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f752db3-458c-46d6-a3a0-3263f92142cd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DZ1/task3/CountingSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DZ2/task1/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DZ2/task1/RemoveDuplicates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DZ3/LeftLeanRedBlackTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JAVA-Algoritms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JAVA-Algoritms.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +16,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -31,24 +35,52 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/user/IdeaProjects/java_homework/JAVA-Algoritms/src/DZ1",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/IdeaProjects/java_homework/JAVA-Algoritms/src/DZ1&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.CountingSort">
-    <configuration name="CountingSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DZ1.task3.CountingSort" />
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="DZ3" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.DZ3">
+    <configuration name="DZ3" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="DZ3.LeftLeanRedBlackTree" />
       <module name="JAVA-Algoritms" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="DZ1.task3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RedBlackTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DZ3.RedBlackTree" />
+      <module name="JAVA-Algoritms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DZ3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -66,11 +98,13 @@
     </configuration>
     <list>
       <item itemvalue="Application.task3" />
-      <item itemvalue="Application.CountingSort" />
+      <item itemvalue="Application.RedBlackTree" />
+      <item itemvalue="Application.DZ3" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CountingSort" />
+        <item itemvalue="Application.DZ3" />
+        <item itemvalue="Application.RedBlackTree" />
       </list>
     </recent_temporary>
   </component>
@@ -83,7 +117,9 @@
       <option name="presentableId" value="Default" />
       <updated>1728052577728</updated>
       <workItem from="1728052579562" duration="2585000" />
-      <workItem from="1728104945211" duration="9603000" />
+      <workItem from="1728104945211" duration="11421000" />
+      <workItem from="1728192809021" duration="17879000" />
+      <workItem from="1728306251494" duration="604000" />
     </task>
     <servers />
   </component>
