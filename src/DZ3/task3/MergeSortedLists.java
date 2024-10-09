@@ -15,31 +15,31 @@ package DZ3.task3;
 
         public static ListNode mergeLists(ListNode l1, ListNode l2) {
             // Создаем временной узел, который облегчит сборку нового списка
-            ListNode dummy = new ListNode(0);
-            ListNode current = dummy; // Указатель на текущий конец нового списка
+            ListNode temp = new ListNode(0);
+            ListNode cur = temp; // Указатель на текущий конец нового списка
 
             // Пока оба списка не пусты
             while (l1 != null && l2 != null) {
                 // Выбираем элемент с меньшим значением и добавляем его в новый список
                 if (l1.value < l2.value) {
-                    current.next = l1;
+                    cur.next = l1;
                     l1 = l1.next;
                 } else {
-                    current.next = l2;
+                    cur.next = l2;
                     l2 = l2.next;
                 }
-                current = current.next; // Переходим к следующему месту в новом списке
+                cur = cur.next; // Переходим к следующему месту в новом списке
             }
 
             // Если один список закончился, присоединяем остаток другого списка
             if (l1 != null) {
-                current.next = l1;
+                cur.next = l1;
             } else {
-                current.next = l2;
+                cur.next = l2;
             }
 
             // Возвращаем начало нового списка (после временного узла)
-            return dummy.next;
+            return temp.next;
         }
 
         public static void main(String[] args) {
@@ -52,6 +52,9 @@ package DZ3.task3;
             ListNode l2 = new ListNode(2);
             l2.next = new ListNode(4);
             l2.next.next = new ListNode(6);
+            l2.next.next.next = new ListNode(9);
+            l2.next.next.next.next = new ListNode(-7);
+
 
             // Слияние списков
             ListNode mergedList = mergeLists(l1, l2);

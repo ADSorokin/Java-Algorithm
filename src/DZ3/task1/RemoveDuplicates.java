@@ -1,4 +1,4 @@
-package DZ2.task1;
+package DZ3.task1;
 
 
 

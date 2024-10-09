@@ -40,7 +40,7 @@ package DZ3.task2;
             node1.next = node2;
 
             int middleValue = findMiddle(node1);
-            System.out.println(middleValue);  // Вывод: 3
+            System.out.println(middleValue);
         }
     }
 

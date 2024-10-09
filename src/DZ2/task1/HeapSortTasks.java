@@ -1,4 +1,4 @@
-package DZ1.task1;
+package DZ2.task1;
 
 import java.util.Arrays;
 

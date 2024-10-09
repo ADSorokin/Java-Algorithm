@@ -1,4 +1,4 @@
-package DZ1.task3;
+package DZ2.task3;
 
 import java.util.Map;
 import java.util.TreeMap;
