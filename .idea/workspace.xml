@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f752db3-458c-46d6-a3a0-3263f92142cd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DZ3/task2/MyLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DZ3/task3/MergeSortedLists.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DZ2/task1/HeapSortTasks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DZ2/task1/HeapSortTasks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DZ2/task2/RadixSortPhoneNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DZ2/task2/RadixSortPhoneNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DZ2/task3/CountingSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DZ2/task3/CountingSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DZ3/task1/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DZ3/task1/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DZ3/task1/RemoveDuplicates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DZ3/task1/RemoveDuplicates.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DZ4/LeftLeanRedBlackTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DZ4/LeftLeanRedBlackTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,13 +58,26 @@
       <recent name="DZ3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MergeSortedLists">
+  <component name="RunManager" selected="Application.LeftLeanRedBlackTree">
     <configuration name="DZ3" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="DZ3.task3.MyLinkedList" />
       <module name="JAVA-Algoritms" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="DZ2.task3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeftLeanRedBlackTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DZ4.LeftLeanRedBlackTree" />
+      <module name="JAVA-Algoritms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DZ3.task2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,15 +121,16 @@
     </configuration>
     <list>
       <item itemvalue="Application.task3" />
+      <item itemvalue="Application.LeftLeanRedBlackTree" />
+      <item itemvalue="Application.RedBlackTree" />
       <item itemvalue="Application.MergeSortedLists" />
-      <item itemvalue="Application.DZ3.RedBlackTree" />
       <item itemvalue="Application.DZ3" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LeftLeanRedBlackTree" />
         <item itemvalue="Application.MergeSortedLists" />
         <item itemvalue="Application.DZ3" />
-        <item itemvalue="Application.DZ3.RedBlackTree" />
       </list>
     </recent_temporary>
   </component>
@@ -139,7 +146,9 @@
       <workItem from="1728104945211" duration="11421000" />
       <workItem from="1728192809021" duration="17879000" />
       <workItem from="1728306251494" duration="4561000" />
-      <workItem from="1728470788073" duration="5835000" />
+      <workItem from="1728470788073" duration="6514000" />
+      <workItem from="1728567144468" duration="1547000" />
+      <workItem from="1728585373634" duration="2808000" />
     </task>
     <servers />
   </component>

@@ -8,7 +8,7 @@ public class LeftLeanRedBlackTree {
 
     private class Node {
         int key;
-        Node left, right;
+        Node left, right, parent;  //поле parent не используем в данной реализации алгоритма
         boolean color;
 
         Node(int key) {
@@ -98,10 +98,10 @@ public class LeftLeanRedBlackTree {
                 description += "          ";
             } else {
                 System.out.print("L----");
-                description += "|         ";
+                description += "|     ";
             }
-            System.out.println(node.key + (isRed(node) ? "(Red)" :
-                    "(Blk)"));
+            System.out.println(node.key + (isRed(node) ? "(color:Red)" :
+                    "(color:Blk)"));
             printTree(node.left, description, false);
             printTree(node.right, description, true);
         }
