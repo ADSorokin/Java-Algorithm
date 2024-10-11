@@ -8,15 +8,13 @@ public class LeftLeanRedBlackTree {
 
     private class Node {
         int key;
-        Node left, right, parent;  //поле parent не используем в данной реализации алгоритма
+        Node left, right, parent;  
         boolean color;
 
         Node(int key) {
             this.key = key;
             this.color = RED;
         }
-
-
     }
 
 
@@ -47,7 +45,6 @@ public class LeftLeanRedBlackTree {
             h.color = RED;
             h.left.color = BLACK;
             h.right.color = BLACK;
-
     }
 
 
@@ -57,14 +54,14 @@ public class LeftLeanRedBlackTree {
     }
 
     private Node add(Node h, int key) {
-        if (h == null) return new Node(key);
-
+        if (h == null) {
+            return new Node(key);
+            }
         if (key < h.key) {
             h.left = add(h.left, key);
         } else if (key > h.key) {
             h.right = add(h.right, key);
         } else {
-
             return h;
         }
 
@@ -77,7 +74,6 @@ public class LeftLeanRedBlackTree {
         if (isRed(h.left) && isRed(h.right)) {
             flipColors(h);
         }
-
         return h;
     }
 
@@ -107,7 +103,7 @@ public class LeftLeanRedBlackTree {
         }
     }
 
-    // Для тестирования
+ 
     public static void main(String[] args) {
         LeftLeanRedBlackTree tree = new LeftLeanRedBlackTree();
         int[] keys = {10, 20, 30, 15, 25, 5};
@@ -116,6 +112,4 @@ public class LeftLeanRedBlackTree {
         }
         tree.printTree();
     }
-
-
 }
